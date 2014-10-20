@@ -14,4 +14,8 @@ public partial class _Default : System.Web.UI.Page
     {
 
     }
+    protected void Button1_Click(object sender, EventArgs e)
+    {
+        this.Label1.Text = "hola mundo";
+    }
 }
