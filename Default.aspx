@@ -9,7 +9,9 @@
 <body>
     <form id="form1" runat="server">
     <div>
-        &nbsp;<asp:Label ID="Label1" runat="server" Text="Label"></asp:Label></div>
+        &nbsp;<asp:Label ID="Label1" runat="server"></asp:Label>
+        <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Style="background-color: transparent"
+            Text="hola mundo" /></div>
     </form>
 </body>
 </html>
