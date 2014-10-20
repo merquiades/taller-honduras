@@ -9,9 +9,12 @@
 <body>
     <form id="form1" runat="server">
     <div>
-        &nbsp;<asp:Label ID="Label1" runat="server"></asp:Label>
-        <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Style="background-color: transparent"
-            Text="hola mundo" /></div>
+        &nbsp; &nbsp;
+        <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Style="background-color: lime"
+            Text="Aceptar" />
+        <asp:Label ID="Label1" runat="server"></asp:Label>
+        <asp:TextBox ID="TextBox1" runat="server" Height="18px" OnTextChanged="TextBox1_TextChanged"
+            Width="236px"></asp:TextBox></div>
     </form>
 </body>
 </html>

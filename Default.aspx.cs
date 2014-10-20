@@ -18,4 +18,8 @@ public partial class _Default : System.Web.UI.Page
     {
         this.Label1.Text = "hola mundo";
     }
+    protected void TextBox1_TextChanged(object sender, EventArgs e)
+    {
+        this.Label1.Text = this.TextBox1.Text;
+    }
 }
