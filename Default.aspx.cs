@@ -16,10 +16,11 @@ public partial class _Default : System.Web.UI.Page
     }
     protected void Button1_Click(object sender, EventArgs e)
     {
-        this.Label1.Text = "hola mundo";
+        //  this.Label1.Text = "hola mundo"; 
+        this.Label1.Text = this.TextBox1.Text;
     }
     protected void TextBox1_TextChanged(object sender, EventArgs e)
     {
-        this.Label1.Text = this.TextBox1.Text;
+       // this.Label1.Text = this.TextBox1.Text;
     }
 }
